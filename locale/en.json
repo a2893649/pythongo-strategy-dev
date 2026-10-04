@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "PythonGO Strategy Dev",
+    "description": "Author, review, and package PythonGO live-trading strategies to spec: minimal-compliant skeleton, 12-invariants gate, and module layout templates."
+  }
+}
