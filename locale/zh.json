@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "PythonGO 策略开发",
+    "description": "按 PythonGO 实盘规范封装、开发、审查交易策略：含最小合规骨架、12 条不变量门禁与模块分解模板。"
+  }
+}
