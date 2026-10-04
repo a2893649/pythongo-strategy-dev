@@ -1,0 +1,45 @@
+{
+  "name": "pythongo-strategy-dev",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "PythonGO 实盘策略开发 skill：最小合规骨架、12 条不可动摇的不变量门禁、模块分解模板。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "skill",
+    "python",
+    "pythongo",
+    "trading",
+    "quant"
+  ],
+  "license": "MIT",
+  "author": "a2893649",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a2893649/pythongo-strategy-dev"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "locale/*.json",
+    "icon.svg",
+    "skills/**/*",
+    "assets/**/*",
+    "references/**/*",
+    "scripts/**/*"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "icon": "./icon.svg",
+  "meta": {
+    "title": "PythonGO 策略开发",
+    "description": "按 PythonGO 实盘规范封装、开发、审查交易策略 skill：含最小合规骨架、12 条不变量门禁与模块分解模板。"
+  }
+}
